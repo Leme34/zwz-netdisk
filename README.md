@@ -47,7 +47,7 @@
 * ③日志管理：存储和展示业务系统的操作日志记录，并且可以根据`追踪ID`来关联所有的日志信息
 
 # 五、系统安装步骤
-参考：https://gitee.com/college996/netdisk/wikis
+参考：https://gitee.com/college996/zwz-netdisk/wikis
 
 后期会编写一个自动化脚本，做到快速本地部署
 
@@ -140,8 +140,8 @@ netdisk-client-javasdk/src/main/java/com.micro.netdisk.javasdk.service.FileServi
 
 
 * `慕课网专栏`：https://www.imooc.com/read/73
-* 前端工程（网盘）：https://gitee.com/college996/disk.git
-* 前端工程（后台）：https://gitee.com/college996/disk-manage.git
+* 前端工程（网盘）：https://gitee.com/college996/zwz-disk.git
+* 前端工程（后台）：https://gitee.com/college996/zwz-disk-manage.git
 * 网盘系统`在线演示`：[http://106.15.248.223/disk](http://106.15.248.223/disk)
 * 网盘后台`在线演示`：[http://106.15.248.223/disk-manage](http://106.15.248.223/disk-manage)
 
