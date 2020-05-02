@@ -63,7 +63,7 @@
 
 **2、如果想获取该版本，则更新以下操作**
 * ①拉取后端代码
-* ②更新前端工程：disk-manage（新增了应用系统文件管理），更新地址：https://gitee.com/zwyyf/disk-manage.git
+* ②更新前端工程：disk-manage（新增了应用系统文件管理），更新地址：https://gitee.com/college996/zwz-disk-manage.git
 * ③Nacos配置文件，需要获取**nacos_config_20200414.zip**，可以从网盘分享里面获取，或者从上面的附件获取
 * ④安装Redis时，需要设置密码，参考：wiki里面的redis安装
 
@@ -81,7 +81,7 @@ https://mp.weixin.qq.com/s?__biz=MzUzMzE3MDcwMQ==&mid=2247483693&idx=1&sn=f81a09
 
 第三步：业务注册，首先需要让管理员到后台系统新增一条记录，然后拿到APPID（**后台系统->应用管理模块**）
 
-第三步：业务系统，采用原生的方式集成，导入disk-client-javasdk.jar包或者对应其坐标
+第四步：业务系统，采用原生的方式集成，导入disk-client-javasdk.jar包或者对应其坐标
 ```xml
 <dependency>
     <groupId>com.micro</groupId>
@@ -103,7 +103,7 @@ https://mp.weixin.qq.com/s?__biz=MzUzMzE3MDcwMQ==&mid=2247483693&idx=1&sn=f81a09
         int count=fs.checkFileByMd5(appId, filemd5);
     }
 ```
-第四步：业务系统，采用SpringBoot starter的方式集成，导入netdisk-spring-boot-starter.jar的坐标
+第五步：业务系统，采用SpringBoot starter的方式集成，导入netdisk-spring-boot-starter.jar的坐标
 ```xml
 <dependency>
     <groupId>com.micro</groupId>
@@ -130,7 +130,7 @@ public String upload() throws InterruptedException{
 }
 
 ```
-**4、API接口说明**
+**3、API接口说明**
 
 由于接口太多，这里列出来不太方便，大家请看接口文件，里面的接口参数写的很清楚：
 
