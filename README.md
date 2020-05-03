@@ -63,7 +63,7 @@
 
 **2、如果想获取该版本，则更新以下操作**
 * ①拉取后端代码
-* ②更新前端工程：disk-manage（新增了应用系统文件管理），更新地址：https://gitee.com/college996/zwz-disk-manage.git
+* ②更新前端工程：zwz-disk-manage（新增了应用系统文件管理），更新地址：https://gitee.com/college996/zwz-disk-manage.git
 * ③Nacos配置文件，需要获取**nacos_config_20200414.zip**，可以从网盘分享里面获取，或者从上面的附件获取
 * ④安装Redis时，需要设置密码，参考：wiki里面的redis安装
 
